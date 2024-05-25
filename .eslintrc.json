@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "mocha": true,
+    "jest": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2023,
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": 0,
+    "no-console": "off",
+    "no-underscore-dangle": 0,
+    "no-restricted-globals": 0,
+    "linebreak-style": 0,
+    "no-shadow": "off",
+    "no-unused-vars": "off",
+    "func-names": "off",
+    "no-use-before-define": "off"
+  }
+}
